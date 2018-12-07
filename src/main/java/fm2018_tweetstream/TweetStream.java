@@ -59,7 +59,6 @@ public class TweetStream {
         }
 
         IDList = loadData(name, dbPath);
-        loadMentions();
         
         // Show user statistics
         String format = "| %1$-10s | %2$-20s | %3$-20s | %4$-10s | %5$-10s |\n";
@@ -161,12 +160,5 @@ public class TweetStream {
         return dataList;
     }
     
-    private static loadMentions(){
-        
-        for( int i=0; i<userMap.size(); i++){
-            
-        }
-        
-    }
 }
 
